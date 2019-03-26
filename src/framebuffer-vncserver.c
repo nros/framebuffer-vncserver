@@ -31,6 +31,7 @@
 #include <linux/input.h>
 #include <linux/uinput.h>
 
+#include <limits.h>
 #include <err.h>
 
 /* libvncserver */
