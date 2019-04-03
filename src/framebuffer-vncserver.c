@@ -45,7 +45,7 @@
 
 static char fb_device[256] = "/dev/fb0";
 static char touch_device[256] = "";
-static char kbd_device[256] = "/dev/input/event0";
+static char kbd_device[256] = "";
 static struct fb_var_screeninfo scrinfo;
 static struct fb_fix_screeninfo fixscrinfo;
 static int fbfd = -1;
